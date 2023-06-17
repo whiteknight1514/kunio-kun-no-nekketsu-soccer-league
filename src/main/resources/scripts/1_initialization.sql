@@ -55,11 +55,3 @@ CREATE TABLE championships
     name                             VARCHAR(100) NOT NULL,
     nekketsu_team_starting_lineup_id smallint REFERENCES nekketsu_team_starting_lineups (id)
 );
-
-CREATE TABLE users
-(
-    id smallserial PRIMARY KEY,
-    login varchar(20) NOT NULL,
-    role varchar(20) NOT NULL,
-    password varchar(255) NOT NULL
-);

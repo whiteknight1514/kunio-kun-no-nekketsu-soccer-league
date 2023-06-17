@@ -129,7 +129,3 @@ VALUES
 ('Kaizuki', 7, 'MF', 13),
 ('Tsunewo', 11, 'FW', 13),
 ('Carlos', 12, 'GK', 13);
-
-INSERT INTO users (login, role, password)
-VALUES
-('admin', 'ADMIN', '$2y$10$H4QgXRRKrwTjWha6EDLvOO2sOM763QbRHoKxLTH48zzYbywuYcfqa');

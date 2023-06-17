@@ -11,5 +11,3 @@ DROP TABLE teams CASCADE;
 DROP TABLE championships CASCADE;
 
 DROP TABLE nekketsu_team_starting_lineups CASCADE;
-
-DROP TABLE users CASCADE;
